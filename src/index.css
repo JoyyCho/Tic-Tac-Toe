@@ -1,0 +1,68 @@
+body {
+ font-family: "Lucida Console", "Courier New", monospace;
+ margin: 30px;
+}
+
+#root {
+ margin: auto;
+}
+
+ol, ul {
+ padding-left: 30px;
+}
+
+.board-row:after {
+ clear: both;
+ content: "";
+ display: table;
+}
+
+.status {
+ margin-bottom: 10px;
+}
+
+.square {
+ background: #fff;
+ border: 1px solid #999;
+ float: left;
+ font-size: 35px;
+ font-weight: bold;
+ margin-right: -1px;
+ margin-top: -1px;
+ padding: 0;
+ text-align: center;
+ height: 70px;
+ width: 70px;
+}
+
+.square:focus {
+ outline: none;
+}
+
+.kbd-navigation .square:focus {
+ background: #ddd;
+}
+
+.game {
+ display: flex;
+ flex-direction: row;
+}
+
+.game-board #counter{
+ margin-top: 10px;
+ font-size: 20px
+}
+
+.game-info {
+ margin-left: 20px;
+}
+
+.game-info div{
+ margin-bottom: -10px;
+ font-size: 20px;
+}
+
+.game-info button{
+ font-size: 17px;
+ margin-bottom: 5px;
+}
