@@ -1,3 +1,8 @@
+# Tic-Tac-Toe
+
+This is a tic tac toe game based on React.
+Live site url can be viewed from: https://joyycho.github.io/Tic-Tac-Toe/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
